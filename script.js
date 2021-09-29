@@ -1,6 +1,6 @@
 async function makeup(){
     const url = "http://makeup-api.herokuapp.com/api/v1/products.json";
-    fetch(url)
+    fetch(url);
     .then(function(response){
         return response.json();
     })
